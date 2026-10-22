@@ -1,0 +1,244 @@
+{
+  "_說明": "觀察清單設定檔 - 可依個人需求自由增刪股票",
+  "_更新日期": "2026-03-22",
+  "範例組合": {
+    "name": "★ 範例組合",
+    "description": "示範用投資組合，請依個人需求修改",
+    "symbols": {
+      "0050": "元大台灣50 — 台股大盤 ETF",
+      "2330": "台積電 TSMC — 晶圓代工",
+      "2454": "聯發科 MediaTek — IC 設計"
+    }
+  },
+  "台股_觀察_金融": {
+    "name": "★ 台股觀察 — 金融股",
+    "description": "計畫買入的金融股候選名單",
+    "symbols": {
+      "2886": "兆豐金 Mega — 官股金控，配息穩定，殖利率佳",
+      "2882": "國泰金 Cathay — 壽險龍頭，配息穩定",
+      "2881": "富邦金 Fubon — 金控龍頭，獲利王"
+    }
+  },
+  "美股_我的關注": {
+    "name": "★ 美股 我的關注",
+    "description": "美股觀察標的",
+    "symbols": {
+      "GOOGL": "Alphabet — Gemini AI、Google Cloud、Waymo",
+      "META": "Meta — Llama 開源模型、AI 廣告引擎",
+      "PLTR": "Palantir — AI 數據分析平台，政府+企業 AI 解決方案",
+      "VOO": "Vanguard S&P 500 ETF — 追蹤標普500，長期定投首選",
+      "QQQ": "NASDAQ 100 ETF — 科技股指標",
+      "TSLA": "Tesla — FSD 自駕 AI、Optimus 機器人"
+    }
+  },
+  "投行推薦_JPMorgan": {
+    "name": "J.P. Morgan 2026 精選",
+    "description": "小摩 2026 年度 Best Ideas（47 檔精選）",
+    "symbols": {
+      "GOOGL": "Alphabet — 小摩目標價 $385，預期上漲 30%",
+      "AVGO": "Broadcom — AI 網路+客製晶片，小摩 AI 核心持股",
+      "MRVL": "Marvell — 客製 AI 矽晶片需求加速",
+      "BA": "Boeing — 航空復甦，小摩+美銀雙重推薦",
+      "GEV": "GE Vernova — 電力設備，預期報酬 50%+",
+      "CELH": "Celsius Holdings — 機能飲料高成長，預期 50%+",
+      "BFAM": "Bright Horizons — 托育服務，預期 50%+",
+      "AZO": "AutoZone — 汽車零件零售龍頭",
+      "DVN": "Devon Energy — 頁岩油氣龍頭",
+      "ALL": "Allstate — 產險龍頭"
+    }
+  },
+  "投行推薦_MorganStanley": {
+    "name": "Morgan Stanley 2026 精選",
+    "description": "大摩核心推薦：AI + 網路安全 + 雲端",
+    "symbols": {
+      "NVDA": "NVIDIA — 大摩 AI 核心持股，需求持續超越供給",
+      "SPOT": "Spotify — 成長+獲利改善，定價權強",
+      "PANW": "Palo Alto Networks — 網路安全平台化+AI 領先",
+      "WDC": "Western Digital — 雲端資本支出受惠，HDD 需求回升"
+    }
+  },
+  "投行推薦_BofA": {
+    "name": "Bank of America 2026 精選",
+    "description": "美銀 Q1 2026 Top 10 + 年度 Best Ideas",
+    "symbols": {
+      "AMZN": "Amazon — 美銀 Q1 Top 10 首選",
+      "BA": "Boeing — 美銀+小摩雙重推薦",
+      "CI": "Cigna — 醫療保險龍頭",
+      "CEG": "Constellation Energy — 核能+AI 資料中心電力",
+      "DG": "Dollar General — 折扣零售復甦",
+      "EQIX": "Equinix — 資料中心 REIT 龍頭",
+      "MRK": "Merck — 製藥龍頭，Keytruda 持續成長",
+      "VRTX": "Vertex Pharma — 基因療法先驅",
+      "EL": "Estee Lauder — 美妝復甦年",
+      "AEM": "Agnico Eagle Mines — 黃金礦業首選",
+      "FCX": "Freeport-McMoRan — 銅礦龍頭，AI 基建受惠"
+    }
+  },
+  "投行推薦_跨行共識": {
+    "name": "多家投行共識推薦",
+    "description": "被兩家以上投行同時推薦的標的",
+    "symbols": {
+      "NVDA": "NVIDIA — 大摩+美銀｜AI GPU 絕對龍頭",
+      "GOOGL": "Alphabet — 小摩+你的關注｜AI 搜尋+雲端",
+      "BA": "Boeing — 小摩+美銀｜航空復甦核心",
+      "SPOT": "Spotify — 大摩+美銀｜串流音樂獲利拐點",
+      "AVGO": "Broadcom — 小摩+高盛｜AI 網路晶片"
+    }
+  },
+  "巴菲特_Berkshire": {
+    "name": "巴菲特 Berkshire Hathaway 持股",
+    "description": "股神巴菲特 2026 Q1 持倉（$2,740 億，42 檔）",
+    "symbols": {
+      "AAPL": "Apple — 最大持股，佔比約 25%",
+      "AXP": "American Express — 長期持有數十年，信用卡龍頭",
+      "BAC": "Bank of America — 金融股核心部位",
+      "KO": "Coca-Cola — 持有 36 年，股息複利典範",
+      "CVX": "Chevron — 能源股核心，現金流穩定",
+      "OXY": "Occidental Petroleum — 持續加碼的石油股",
+      "KHC": "Kraft Heinz — 食品巨頭，價值股",
+      "MCO": "Moody's — 信評機構，護城河極深",
+      "CB": "Chubb — 保險業龍頭，巴菲特最愛的產業",
+      "DVA": "DaVita — 腎臟透析服務龍頭",
+      "BRK-B": "Berkshire Hathaway B 股 — 巴菲特的公司本身"
+    }
+  },
+  "Vanguard_推薦ETF": {
+    "name": "Vanguard 2026 推薦 ETF",
+    "description": "Vanguard 觀點：美股價值股+國際分散+固定收益",
+    "symbols": {
+      "VOO": "S&P 500 ETF — 核心美股配置首選",
+      "VTI": "全市場 ETF — 3,500+ 檔美股全覆蓋",
+      "VGT": "資訊科技 ETF — 持有 NVDA/AAPL/MSFT/AVGO，2026 最看好",
+      "VXUS": "國際股票 ETF — 非美市場分散，殖利率 2.7%",
+      "VYMI": "國際高股息 ETF — 海外高息標的",
+      "VTV": "美股價值 ETF — Vanguard 2026 最推的風格",
+      "BND": "美國綜合債券 ETF — 高品質固收，下行保護",
+      "BNDX": "國際債券 ETF — 全球固收分散"
+    }
+  },
+  "Invesco_QQQ持股": {
+    "name": "Invesco QQQ 前 15 大持股",
+    "description": "NASDAQ 100 核心成分股，AI 生態全覆蓋",
+    "symbols": {
+      "NVDA": "NVIDIA — 佔 QQQ 8.66%，AI GPU 龍頭",
+      "AAPL": "Apple — 佔 7.34%，消費電子+AI",
+      "MSFT": "Microsoft — 佔 5.77%，Azure+Copilot",
+      "AMZN": "Amazon — 佔 4.45%，AWS+電商",
+      "TSLA": "Tesla — 佔 3.79%，自駕+機器人",
+      "META": "Meta — 佔 3.5%，AI 廣告+Llama",
+      "GOOGL": "Alphabet — 佔 3.2%，搜尋+雲端",
+      "AVGO": "Broadcom — 佔 3.1%，AI 網路晶片",
+      "COST": "Costco — 佔 2.8%，會員制零售龍頭",
+      "NFLX": "Netflix — 佔 2.5%，串流龍頭+廣告營收"
+    }
+  },
+  "ARK_Invest": {
+    "name": "ARK Invest — Cathie Wood 持倉",
+    "description": "木頭姐 2026 Big Ideas：破壞式創新、AI Agent、機器人計程車",
+    "symbols": {
+      "TSLA": "Tesla — ARK 最大持股，自駕+機器人+能源",
+      "COIN": "Coinbase — 第二大持股 8.2%，加密貨幣交易所龍頭",
+      "PLTR": "Palantir — AI 數據平台，政府+企業客戶",
+      "ROKU": "Roku — 串流電視平台，廣告營收成長",
+      "XYZ": "Block (原 Square) — 數位支付+比特幣，已更名 ticker SQ→XYZ",
+      "CRSP": "CRISPR Therapeutics — 基因編輯療法先驅",
+      "PATH": "UiPath — RPA 自動化+AI Agent",
+      "TEM": "Tempus AI — AI 精準醫療，基因組學",
+      "BEAM": "Beam Therapeutics — 鹼基編輯基因療法",
+      "RKLB": "Rocket Lab — 小型衛星發射，太空經濟"
+    }
+  },
+  "BlackRock_iShares": {
+    "name": "BlackRock iShares 2026 主題 ETF",
+    "description": "全球最大資產管理公司：AI 基建+金礦+金融+半導體",
+    "symbols": {
+      "IYW": "美國科技 ETF — Strong Buy，預期上漲 34%",
+      "IVW": "S&P 500 成長 ETF — 預期上漲 32%",
+      "SOXX": "半導體 ETF — Strong Buy，預期上漲 26%",
+      "IAU": "黃金 ETF — 金價穩定+實質利率下降受惠",
+      "IYF": "美國金融 ETF — 殖利率曲線轉陡+併購潮",
+      "ICLN": "全球潔淨能源 ETF — 能源轉型長期題材",
+      "IBIT": "比特幣 ETF — BlackRock 旗下，規模最大的 BTC ETF"
+    }
+  },
+  "台股_AI_半導體": {
+    "name": "台股 AI / 半導體（高盛推薦）",
+    "description": "台灣 AI 供應鏈與半導體核心標的",
+    "symbols": {
+      "2330": "台積電 TSMC — 全球晶圓代工龍頭，AI 晶片核心",
+      "2454": "聯發科 MediaTek — IC 設計龍頭，AI 邊緣運算",
+      "2317": "鴻海 Foxconn — AI 伺服器組裝，GB200 供應鏈",
+      "3711": "日月光投控 ASE — 先進封裝 CoWoS，AI 晶片封測",
+      "2382": "廣達 Quanta — AI 伺服器 ODM 龍頭，GB200 機櫃",
+      "3231": "緯創 Wistron — AI 伺服器代工，NVIDIA 供應鏈",
+      "6669": "緯穎 Wiwynn — 雲端伺服器，微軟/Meta 供應商",
+      "2308": "台達電 Delta — AI 資料中心電源供應龍頭",
+      "3034": "聯詠 Novatek — 驅動 IC 龍頭，AI 顯示技術"
+    }
+  },
+  "台股_金融_高股息": {
+    "name": "台股 金融 / 高股息",
+    "description": "金融股與高股息標的，適合穩健配置",
+    "symbols": {
+      "2886": "兆豐金 Mega — 官股金控，配息穩定，殖利率佳",
+      "2881": "富邦金 Fubon — 金控龍頭，獲利王",
+      "2882": "國泰金 Cathay — 壽險龍頭，配息穩定",
+      "2884": "玉山金 E.SUN — 優質金控，數位銀行領先",
+      "2891": "中信金 CTBC — 獲利穩健，海外佈局廣",
+      "0050": "元大台灣50 — 台股大盤 ETF，追蹤前50大",
+      "0056": "元大高股息 — 高殖利率 ETF，存股首選",
+      "00878": "國泰永續高股息 — 季配息 ETF，近年最夯"
+    }
+  },
+  "台股_其他熱門": {
+    "name": "台股 其他熱門",
+    "description": "記憶體、光電、傳產等熱門標的",
+    "symbols": {
+      "2344": "華邦電 Winbond — 記憶體，HBM 概念",
+      "2408": "南亞科 Nanya — DRAM 廠，AI 記憶體需求",
+      "3443": "創意電子 GUC — 台積電子公司，ASIC 設計",
+      "2301": "光寶科 Lite-On — 電源供應，AI 伺服器",
+      "2303": "聯電 UMC — 成熟製程晶圓代工"
+    }
+  },
+  "美股_AI_七巨頭": {
+    "name": "美股 Magnificent 7 + AI",
+    "description": "美股七大科技巨頭與核心 AI 標的",
+    "symbols": {
+      "NVDA": "NVIDIA — AI GPU 霸主，資料中心 AI 核心",
+      "MSFT": "Microsoft — Azure AI、Copilot、OpenAI 合作",
+      "AAPL": "Apple — AI on-device、Apple Intelligence",
+      "GOOGL": "Alphabet — Gemini AI、Google Cloud、Waymo",
+      "AMZN": "Amazon — AWS AI 服務、Alexa LLM",
+      "META": "Meta — Llama 開源模型、AI 廣告引擎",
+      "TSLA": "Tesla — FSD 自駕 AI、Optimus 機器人",
+      "PLTR": "Palantir — AI 數據分析平台，政府+企業 AI 解決方案"
+    }
+  },
+  "美股_半導體": {
+    "name": "美股 半導體",
+    "description": "美股半導體產業鏈",
+    "symbols": {
+      "AVGO": "Broadcom — AI 網路晶片、VMware 整合",
+      "TSM": "台積電 ADR — 全球晶圓代工龍頭",
+      "AMD": "AMD — AI GPU 挑戰者，MI300 系列",
+      "MRVL": "Marvell — 客製 AI 矽晶片，5G 基建",
+      "LRCX": "Lam Research — 半導體設備，蝕刻龍頭",
+      "KLAC": "KLA — 半導體檢測設備龍頭",
+      "CDNS": "Cadence — EDA 設計工具龍頭",
+      "ADI": "Analog Devices — 類比晶片，工業 AI"
+    }
+  },
+  "美股_指數ETF": {
+    "name": "美股 指數 / ETF",
+    "description": "追蹤大盤的核心 ETF",
+    "symbols": {
+      "VOO": "Vanguard S&P 500 ETF — 追蹤標普500，長期定投首選",
+      "SPY": "S&P 500 ETF — 美股大盤指標，流動性最高",
+      "QQQ": "NASDAQ 100 ETF — 科技股指標",
+      "IWM": "Russell 2000 ETF — 小型股指標",
+      "SOXX": "iShares 半導體 ETF — 半導體產業",
+      "VTI": "Vanguard 全市場 ETF — 最廣泛美股覆蓋"
+    }
+  }
+}

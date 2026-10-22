@@ -1,0 +1,77 @@
+# Full stack deployment with PostgreSQL, pgAdmin, and Streamlit app
+# Usage: docker-compose -f docker-compose.full.yml up -d
+
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: quant_db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-quant_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-quant_password}
+      POSTGRES_DB: ${POSTGRES_DB:-quant_trading}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-quant_user}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - quant_network
+
+  # pgAdmin for database management
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: quant_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL:-admin@admin.com}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-admin}
+    ports:
+      - "5050:80"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - quant_network
+
+  # Streamlit Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: quant_app
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=${POSTGRES_DB:-quant_trading}
+      - POSTGRES_USER=${POSTGRES_USER:-quant_user}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-quant_password}
+      - FINMIND_API_TOKEN=${FINMIND_API_TOKEN:-}
+      - FINNHUB_API_KEY=${FINNHUB_API_KEY:-}
+    ports:
+      - "8501:8501"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - quant_network
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  quant_network:
+    driver: bridge

@@ -1,0 +1,34 @@
+# =============================================
+# 核心套件 (Core - 必須安裝 / Must install)
+# =============================================
+
+# Web Framework
+streamlit>=1.50.0   # st.navigation sections + width="stretch"
+
+# Data Visualization
+plotly>=5.18.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Data Sources (股票資料來源 - 最重要!)
+yfinance>=0.2.36
+finnhub-python>=2.4.18
+FinMind>=1.4.0
+pandas-datareader>=0.10.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Statistical Analysis
+statsmodels>=0.14.0
+scipy>=1.11.0
+
+# Machine Learning (CQF M4 panel)
+scikit-learn>=1.3.0
+
+# Type Hints
+typing-extensions>=4.8.0
+pydantic>=2.5.0

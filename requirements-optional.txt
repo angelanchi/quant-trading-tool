@@ -1,0 +1,27 @@
+# =============================================
+# 進階套件 (Optional - 安裝失敗不影響核心功能)
+# =============================================
+# 如果某個套件安裝失敗，對應功能會降級但不會影響其他功能
+
+# Database (需要 PostgreSQL 伺服器)
+sqlalchemy>=2.0.25
+psycopg2-binary>=2.9.9
+
+# Backtesting (需要編譯，Windows 可能需要 Visual C++ Build Tools)
+vectorbt>=0.26.0
+
+# Portfolio Optimization (需要編譯)
+pyportfolioopt>=1.5.5
+riskfolio-lib>=4.0.0
+
+# Risk Analysis
+arch>=6.2.0
+quantstats>=0.0.62
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# API Server (Optional)
+fastapi>=0.109.0
+uvicorn>=0.27.0

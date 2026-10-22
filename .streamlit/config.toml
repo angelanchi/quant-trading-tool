@@ -1,0 +1,16 @@
+[theme]
+primaryColor = "#1F3B5C"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F6F7"
+textColor = "#111111"
+font = "sans serif"
+
+[server]
+headless = false
+port = 8501
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = true
